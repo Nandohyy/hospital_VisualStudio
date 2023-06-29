@@ -61,7 +61,7 @@ namespace hospital_1
         {
 
             this.con.Open();
-            MySqlCommand dataCommand = new MySqlCommand("SELECT * FROM daftar_obat WHERE `Nama Obat` LIKE @keyword", this.con);
+            MySqlCommand dataCommand = new MySqlCommand("SELECT * FROM daftar_obat WHERE `name` LIKE @keyword", this.con);
             dataCommand.Parameters.AddWithValue("@keyword", "%" + keyword + "%");
             MySqlDataReader dataReader = dataCommand.ExecuteReader();
             DataTable dataTable = new DataTable();

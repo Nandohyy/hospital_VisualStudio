@@ -44,7 +44,7 @@ namespace hospital_1
             con = new MySqlConnection(builder.ConnectionString);
 
             con.Open();
-            MySqlCommand dataCommand = new MySqlCommand("SELECT * FROM daftar_pasien", con);
+            MySqlCommand dataCommand = new MySqlCommand("SELECT * FROM daftar_pasient", con);
             MySqlDataReader dataReader = dataCommand.ExecuteReader();
             DataTable dataTable = new DataTable();
             dataTable.Load(dataReader);
@@ -61,14 +61,13 @@ namespace hospital_1
         {
 
             this.con.Open();
-            MySqlCommand dataCommand = new MySqlCommand("SELECT * FROM daftar_pasien WHERE `Nama Lengkap` LIKE @keyword", this.con);
+            MySqlCommand dataCommand = new MySqlCommand("SELECT * FROM daftar_pasient WHERE `fullname` LIKE @keyword", this.con);
             dataCommand.Parameters.AddWithValue("@keyword", "%" + keyword + "%");
             MySqlDataReader dataReader = dataCommand.ExecuteReader();
             DataTable dataTable = new DataTable();
             dataTable.Load(dataReader);
             dataGridView1.DataSource = dataTable;
             this.con.Close();
-
         }
 
         private void button6_Click_1(object sender, EventArgs e)
@@ -85,7 +84,7 @@ namespace hospital_1
         private void load_data_pasien()
         {
             this.con.Open();
-            MySqlCommand dataCommand = new MySqlCommand("SELECT * FROM daftar_pasien", this.con);
+            MySqlCommand dataCommand = new MySqlCommand("SELECT * FROM daftar_pasient", this.con);
             MySqlDataReader dataReader = dataCommand.ExecuteReader();
             DataTable dataTable = new DataTable();
             dataTable.Load(dataReader);

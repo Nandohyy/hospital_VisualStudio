@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital_1\\hospital_1.csproj": {}
+    "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital Medika\\hospital_1.csproj": {}
   },
   "projects": {
-    "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital_1\\hospital_1.csproj": {
+    "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital Medika\\hospital_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital_1\\hospital_1.csproj",
+        "projectUniqueName": "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital Medika\\hospital_1.csproj",
         "projectName": "hospital_1",
-        "projectPath": "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital_1\\hospital_1.csproj",
+        "projectPath": "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital Medika\\hospital_1.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital_1\\obj\\",
+        "outputPath": "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital Medika\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
