@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HYqFDVSPuNwH4HlSsQciigPnAfeZltDCOujTDC5uH1gr0nUj9zd2ALgyz8X+qc+YTjrZXOaOqdQbaX5Vq/vbJA==",
+  "success": true,
+  "projectFilePath": "D:\\Kuliah POLINES\\Kuliah Semester 4\\pemrograman basis data\\hospital_1\\hospital_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mysqlconnector\\2.2.6\\mysqlconnector.2.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}
